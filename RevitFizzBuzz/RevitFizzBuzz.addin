@@ -9,12 +9,12 @@
     <VendorId>com.typepad.thebuildingcoder</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
   </AddIn>
-  <AddIn Type="Application">
+  <!--<AddIn Type="Application">
     <Name>Application RevitFizzBuzz</Name>
     <Assembly>RevitFizzBuzz.dll</Assembly>
     <FullClassName>RevitFizzBuzz.App</FullClassName>
     <ClientId>bc649407-34dc-4ef9-b740-f0f08229ed0d</ClientId>
     <VendorId>com.typepad.thebuildingcoder</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
-  </AddIn>
+  </AddIn>-->
 </RevitAddIns>

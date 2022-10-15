@@ -25,7 +25,7 @@ namespace RevitFizzBuzz
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
 
-            double offset = 0.01;
+            double offset = 0.03;
             double offsetCalc = offset * doc.ActiveView.Scale;
 
             XYZ curPoint = new XYZ(0, 0, 0);
@@ -35,11 +35,11 @@ namespace RevitFizzBuzz
             collector.OfClass(typeof(TextNoteType));
 
             // This transaction lock the Revit model while it's being edited.
-            string transactionNote = "Create Text Note from command01. ";
+            string transactionNote = "Create Text Note from command class. ";
             Transaction t = new Transaction(doc, transactionNote);
             t.Start();
 
-            int range = 50;
+            int range = 100;
             for (int i = 1; i <= range; i++)
             {
                 double divisibleBy3 = i % 3;
@@ -56,7 +56,7 @@ namespace RevitFizzBuzz
                 }
                 else if (divisibleBy5 == 0)
                 {
-                    result = i + ": Divisible by 3: BUZZ";
+                    result = i + ": Divisible by 5: BUZZ";
 
                 }
                 else
