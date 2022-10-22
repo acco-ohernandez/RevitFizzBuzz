@@ -6,15 +6,15 @@
     <Assembly>RevitFizzBuzz.dll</Assembly>
     <FullClassName>RevitFizzBuzz.Command</FullClassName>
     <ClientId>44be4b88-c17d-46fb-a89b-4232ce1626db</ClientId>
-    <VendorId>com.typepad.thebuildingcoder</VendorId>
-    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+    <VendorId>ORHenrnandez</VendorId>
+    <VendorDescription>Revit Add-in Accademy, https://www.archsmarter.com/products/revit-add-in-academy/categories/2151093556/posts/2162122605</VendorDescription>
   </AddIn>
-  <!--<AddIn Type="Application">
+  <AddIn Type="Application">
     <Name>Application RevitFizzBuzz</Name>
     <Assembly>RevitFizzBuzz.dll</Assembly>
     <FullClassName>RevitFizzBuzz.App</FullClassName>
     <ClientId>bc649407-34dc-4ef9-b740-f0f08229ed0d</ClientId>
-    <VendorId>com.typepad.thebuildingcoder</VendorId>
-    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
-  </AddIn>-->
+    <VendorId>ORHenrnandez</VendorId>
+    <VendorDescription>Revit Add-in Accademy, https://www.archsmarter.com/products/revit-add-in-academy/categories/2151093556/posts/2162122605</VendorDescription>
+  </AddIn>
 </RevitAddIns>
